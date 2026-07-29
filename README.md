@@ -4,7 +4,6 @@
 
 A modern cross-platform **Food Delivery Application** built with **React Native**, **Expo**, **TypeScript**, **Appwrite**, **NativeWind**, and **Zustand**.
 
-<img src="assets/readme/hero.png" alt="Fooders Banner">
 
 <br/>
 
