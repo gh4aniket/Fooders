@@ -1,152 +1,287 @@
 <div align="center">
-  <br />
-    <a href="https://www.youtube.com/watch?v=LKrX390fJMw" target="_blank">
-      <img src="assets/readme/hero.png" alt="Project Banner">
-    </a>
-  <br />
 
-  <div>
-    <img src="https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="React Native" />
-    <img src="https://img.shields.io/badge/-Expo-black?style=for-the-badge&logoColor=white&logo=expo&color=000020" alt="Expo" />
-        <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=F02E65" alt="Appwrite" />
-    <img src="https://img.shields.io/badge/-Tailwind-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="Tailwind" />
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="TypeScript" />
-  </div>
+# 🍔 Fooders
 
-  <h3 align="center">Food Delivery Mobile App</h3>
+A modern cross-platform **Food Delivery Application** built with **React Native**, **Expo**, **TypeScript**, **Appwrite**, **NativeWind**, and **Zustand**.
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+<img src="assets/readme/hero.png" alt="Fooders Banner">
+
+<br/>
+
+<img src="https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="React Native" />
+<img src="https://img.shields.io/badge/-Expo-black?style=for-the-badge&logoColor=white&logo=expo&color=000020" alt="Expo" />
+<img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=F02E65" alt="Appwrite" />
+<img src="https://img.shields.io/badge/-NativeWind-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="NativeWind" />
+<img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="TypeScript" />
+<img src="https://img.shields.io/badge/-Zustand-black?style=for-the-badge&logoColor=white&color=764ABC" alt="Zustand" />
+
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+---
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets](#links)
-6. 🚀 [More](#more)
+# 📋 Table of Contents
 
-## 🚨 Tutorial
+- [Introduction](#-introduction)
+- [Screenshots](#-screenshots)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Environment Variables](#-environment-variables)
+- [Running the Project](#-running-the-project)
+- [Future Enhancements](#-future-enhancements)
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+---
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+# 🤖 Introduction
 
-<a href="https://www.youtube.com/watch?v=LKrX390fJMw" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+**Fooders** is a modern food delivery application that enables users to authenticate securely, browse restaurants and food items, search meals, manage their shopping cart, and place orders through an intuitive mobile experience.
 
-## <a name="introduction">🤖 Introduction</a>
+Powered by **Appwrite** for authentication, backend services, and database management, and built using **React Native**, **Expo**, **TypeScript**, and **NativeWind**, Fooders delivers a fast, scalable, and responsive cross-platform experience for Android and iOS.
 
-Built with React Native, TypeScript, and Tailwind CSS, this full-stack Food Delivery app features Google Authentication, dynamic search and filters, cart functionality, and smooth navigation. Powered by Appwrite for backend, database, and file storage, it delivers a responsive, scalable, and intuitive user experience with modern UI/UX best practices.
+---
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+# 📱 Screenshots
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+<table align="center">
+<tr>
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+<td align="center">
+<b>🔐 Login</b><br/><br/>
+<img src="assets/images/login.jpeg" width="180"/>
+</td>
 
-- **[Appwrite](https://jsm.dev/rn25-appwrite)** is an open-source backend-as-a-service platform offering secure authentication (email/password, OAuth, SMS, magic links), databases, file storage with compression/encryption, real-time messaging, serverless functions, and static site hosting via Appwrite Sites—all managed through a unified console and microservices architecture.
+<td align="center">
+<b>✅ Login Success</b><br/><br/>
+<img src="assets/images/login-success.jpeg" width="180"/>
+</td>
 
-- **[Expo](https://expo.dev/)** is an open-source platform for building universal native apps (Android, iOS, web) using JavaScript/TypeScript and React Native. It features file-based routing via Expo Router, fast refresh, native modules for camera/maps/notifications, over-the-air updates (EAS), and streamlined app deployment.
+<td align="center">
+<b>🏠 Home</b><br/><br/>
+<img src="assets/images/home.jpeg" width="180"/>
+</td>
 
-- **[NativeWind](https://www.nativewind.dev/)** brings Tailwind CSS to React Native and Expo, allowing you to style mobile components using utility-first classes for fast, consistent, and responsive UI design.
+<td align="center">
+<b>🔍 Search</b><br/><br/>
+<img src="assets/images/search.jpeg" width="180"/>
+</td>
 
-- **[React Native](https://reactnative.dev/)** is a framework for building mobile UIs with React. It enables component‑based, cross-platform development with declarative UI, deep native API support, and is tightly integrated with Expo for navigation and native capabilities.
+</tr>
 
-- **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework enabling rapid UI design via low-level classes. In React Native/Expo, it’s commonly used with NativeWind to apply Tailwind-style utilities to mobile components.
+<tr>
 
-- **[TypeScript](https://www.typescriptlang.org/)** is a statically-typed superset of JavaScript providing type annotations, interfaces, enums, generics, and enhanced tooling. It improves error detection, code quality, and scalability—ideal for robust, maintainable projects.
+<td align="center">
+<b>🍽️ Food Details</b><br/><br/>
+<img src="assets/images/details.jpeg" width="180"/>
+</td>
 
-- **[Zustand](https://github.com/pmndrs/zustand)** is a minimal, hook-based state management library for React and React Native. It lets you manage global state with zero boilerplate, no context providers, and excellent performance through selective state subscriptions.
+<td align="center">
+<b>🛒 Cart</b><br/><br/>
+<img src="assets/images/cart.jpeg" width="180"/>
+</td>
 
-- **[Sentry](https://jsm.dev/rn-food-sentry)** is a powerful error tracking and performance monitoring tool for React Native apps. It helps you detect, diagnose, and fix issues in real-time to improve app stability and user experience.
+<td align="center">
+<b>👤 Profile</b><br/><br/>
+<img src="assets/images/profile.jpeg" width="180"/>
+</td>
 
+<td align="center">
+<b>📦 Orders</b><br/><br/>
+<img src="assets/images/orders.jpeg" width="180"/>
+</td>
 
+</tr>
+</table>
 
-## <a name="features">🔋 Features</a>
+---
 
-### Features of the Mobile Movie AppProject
+# 🔥 Features
 
-👉 **Google Authentication**: Secure and seamless user sign-ins using Google.  
+### 🔐 Secure Authentication
 
-👉 **Home Page**: Showcases the latest offers and directs users to filtered search results.  
+Authenticate users securely using **Appwrite Authentication** with a seamless login experience.
 
-👉 **Search Page**: Lets users explore all foods with category filters and keyword search.  
+---
 
-👉 **Product Details Page**: Displays food images, key details, and allows adding items to the cart.  
+### 🏠 Home Dashboard
 
-👉 **Cart Page**: Review selected items and see the total price.  
+Browse featured restaurants, popular meals, and the latest food offers through a clean, modern interface.
 
-👉 **Profile Page**: Manage user settings and preferences.  
+---
 
-👉 **Appwrite Integration**: Handles backend database and file storage for food items.
+### 🔍 Smart Food Search
 
-and many more, including code architecture and reusability.
+Search meals instantly with category filtering and keyword-based search functionality.
 
-## <a name="quick-start">🤸 Quick Start</a>
+---
 
-Follow these steps to set up the project locally on your machine.
+### 🍽️ Food Details
 
-**Prerequisites**
+View detailed information including food images, pricing, descriptions, ingredients, and ratings before placing an order.
 
-Make sure you have the following installed on your machine:
+---
 
-- **[Git](https://git-scm.com/)**
-- **[Node.js](https://nodejs.org/en)**
-- **[npm](https://www.npmjs.com/)** _(Node Package Manager)_
+### 🛒 Shopping Cart
 
-**Cloning the Repository**
+Add, remove, and manage food items with automatic total price calculation.
+
+---
+
+### 👤 User Profile
+
+Manage personal information, account preferences, and order history.
+
+---
+
+### ☁️ Appwrite Backend
+
+Utilizes Appwrite for:
+
+- Authentication
+- Database Management
+- File Storage
+- Backend Services
+
+---
+
+### ⚡ Global State Management
+
+Uses **Zustand** for lightweight and efficient application-wide state management.
+
+---
+
+### 🎨 Modern Mobile UI
+
+- Beautiful Interface
+- Responsive Design
+- Smooth Navigation
+- Mobile-First Experience
+- Consistent User Experience
+
+---
+
+### 📱 Cross-Platform Support
+
+Developed using React Native and Expo to provide a seamless experience on Android and iOS.
+
+---
+
+### 🏗️ Scalable Architecture
+
+Built with:
+
+- Reusable Components
+- TypeScript Interfaces
+- Modular Services
+- Utility Functions
+- Clean Folder Structure
+- Separation of UI and Business Logic
+
+---
+
+### 🚀 Optimized Performance
+
+- Efficient Rendering
+- Fast Navigation
+- Optimized API Calls
+- Lightweight State Management
+- Responsive Interactions
+
+---
+
+# ⚙️ Tech Stack
+
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+- NativeWind
+- Appwrite
+- Zustand
+- Sentry
+
+---
+
+# 🚀 Installation
+
+Clone the repository.
 
 ```bash
-git clone https://github.com/adrianhajdin/food_ordering.git
-cd food_ordering
+git clone https://github.com/<your-github-username>/fooders.git
+
+cd fooders
 ```
 
-**Installation**
-
-Install the project dependencies using npm:
+Install dependencies.
 
 ```bash
 npm install
 ```
 
-**Set Up Environment Variables**
+or
 
-Create a new file named `.env` in the root of your project and add the following content:
+```bash
+yarn
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env` file in the project root.
 
 ```env
 EXPO_PUBLIC_APPWRITE_PROJECT_ID=
+
 EXPO_PUBLIC_APPWRITE_ENDPOINT=
 ```
 
-Replace the placeholder values with your actual credentials by signing up on the **[Appwrite](https://jsm.dev/rn25-appwrite)** dashboard.
+Replace the placeholder values with your Appwrite project credentials.
 
-**Running the Project**
+---
+
+# ▶️ Running the Project
+
+Start the Expo development server.
 
 ```bash
 npx expo start
 ```
 
-Open your ExpoGO app on your phone and scan the QR code to view the project.
+Run on Android.
 
-## <a name="links">🔗 Assets</a>
+```bash
+npx expo run:android
+```
 
-Assets and snippets used in the project can be found in the **[video kit](https://jsmastery.com/video-kit/d6633345-8797-4b96-8a4b-935618306d1d)**.
+Run on iOS.
 
-<a href="https://jsmastery.com/video-kit/d6633345-8797-4b96-8a4b-935618306d1d" target="_blank">
-  <img src="assets/readme/videokit.png" alt="Video Kit Banner">
-</a>
+```bash
+npx expo run:ios
+```
 
-## <a name="more">🚀 More</a>
+Or scan the QR code using **Expo Go** on your mobile device.
 
-**Advance your skills with Next.js Pro Course**
+---
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
+# 🚀 Future Enhancements
 
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+- 💳 Online Payment Integration
+- ❤️ Wishlist & Favorites
+- 📍 Live Order Tracking
+- 🔔 Push Notifications
+- ⭐ Restaurant Reviews
+- 🧾 Order History
+- 🎁 Coupons & Discounts
+- 🌙 Dark Mode
+- 🤖 AI Food Recommendations
+- 🌎 Multi-language Support
 
-<a href="https://jsm.dev/rn-food-jsm" target="_blank">
-   <img src="assets/readme/jsmpro.png" alt="Project Banner">
-</a>
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a star!
+
+Made with ❤️ using **React Native**, **Expo**, **TypeScript**, **NativeWind**, **Appwrite**, and **Zustand**.
+
+</div>
