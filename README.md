@@ -46,22 +46,22 @@ Powered by **Appwrite** for authentication, backend services, and database manag
 
 <td align="center">
 <b>🔐 Login</b><br/><br/>
-<img src="assets/images/login.jpeg" width="180"/>
+<img src="assets/images/login.png" width="180"/>
 </td>
 
 <td align="center">
 <b>✅ Login Success</b><br/><br/>
-<img src="assets/images/login-success.jpeg" width="180"/>
+<img src="assets/images/login-success.png" width="180"/>
 </td>
 
 <td align="center">
 <b>🏠 Home</b><br/><br/>
-<img src="assets/images/home.jpeg" width="180"/>
+<img src="assets/images/home.png" width="180"/>
 </td>
 
 <td align="center">
 <b>🔍 Search</b><br/><br/>
-<img src="assets/images/search.jpeg" width="180"/>
+<img src="assets/images/search.png" width="180"/>
 </td>
 
 </tr>
@@ -70,22 +70,22 @@ Powered by **Appwrite** for authentication, backend services, and database manag
 
 <td align="center">
 <b>🍽️ Food Details</b><br/><br/>
-<img src="assets/images/details.jpeg" width="180"/>
+<img src="assets/images/details.png" width="180"/>
 </td>
 
 <td align="center">
 <b>🛒 Cart</b><br/><br/>
-<img src="assets/images/cart.jpeg" width="180"/>
+<img src="assets/images/cart.png" width="180"/>
 </td>
 
 <td align="center">
 <b>👤 Profile</b><br/><br/>
-<img src="assets/images/profile.jpeg" width="180"/>
+<img src="assets/images/profile.png" width="180"/>
 </td>
 
 <td align="center">
 <b>📦 Orders</b><br/><br/>
-<img src="assets/images/orders.jpeg" width="180"/>
+<img src="assets/images/orders.png" width="180"/>
 </td>
 
 </tr>
