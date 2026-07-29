@@ -84,7 +84,7 @@ Powered by **Appwrite** for authentication, backend services, and database manag
 </td>
 
 <td align="center">
-<b>📦 Orders</b><br/><br/>
+<b>📦 Sign-Up</b><br/><br/>
 <img src="assets/images/sign.png" width="180"/>
 </td>
 
